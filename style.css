@@ -1,0 +1,132 @@
+body{
+    margin: 0;    
+}
+
+@font-face {
+    font-family: 'odin-style';
+    src: url('./fonts/Norse-Bold.otf');
+}
+.cuerpo{
+    display: flex;
+}
+.logo-fondo{
+    background-image: url("./images/hojas2.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+.container-text-logo{
+    background-color: rgba(0,0, 0, 0.5);
+    position: relative;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    width: 60px;
+    
+}
+
+.texto-logo{
+    color: white;
+    font-family: 'odin-style';
+    font-size: 1.5em;   
+    
+    
+}
+
+.lado-form > *{
+    padding: 0 10%;
+    
+}
+
+form{
+    padding-bottom: 20px;
+    
+    
+}
+
+.caja-form{
+    display: flex;
+    gap: 30px;
+    
+    
+    
+}
+
+.middle{
+    padding-top: 20px;
+    box-shadow: 1px 5px 10px gray;
+}
+
+
+.texto-superior{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+    background-color: aliceblue;
+    
+}
+
+.subform{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.espacio-form{
+    width: 30%;
+}
+
+.doit{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+label{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 0.7em;
+}
+
+.entrada{
+    outline: none;
+    border-radius: 8px;
+    height: 22px;
+}
+
+.entrada:valid {
+    border-color: #E5E7EB ;
+}
+.entrada:invalid{
+    border-color: red;
+}
+.entrada:focus{
+    
+    border-color: blue;
+}
+
+.footer{
+    padding-top: 10%;
+    
+}
+.errorp{
+margin-top: 5px;
+}
+
+.c-account{
+    outline: none;    
+    border: 0px;
+    background-color: #596D48;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 6px;
+    box-shadow: 1px 5px 10px gray;
+    margin-top: 20px;
+}
